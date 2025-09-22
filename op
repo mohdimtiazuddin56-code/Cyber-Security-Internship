@@ -1,0 +1,13 @@
+C:\Users\Mohd Imtiaz Uddin>nmap -sS -Pn -T4 192..............
+Starting Nmap 7.98 ( https://nmap.org ) at 2025-09-22 22:30 +0530
+Nmap scan report for 192..............
+Host is up (0.00098s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE
+15/tcp  open  msrpc
+39/tcp  open  netbios-ssn
+45/tcp  open  microsoft-ds
+269/tcp open  icslap
+070/tcp open  realserver
+
+Nmap done: 1 IP address (1 host up) scanned in 0.94 seconds
